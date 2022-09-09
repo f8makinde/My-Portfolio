@@ -4,10 +4,12 @@
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
  body{
-    margin: 60px auto;
-    max-width: 800px;
-    text-align: center;
+  margin: 0;
  }
+ .navbar{
+  position: fixed;
+  width: 100%;
+ } 
  h1{
     font-weight: bold;
     font-size: 96px;
