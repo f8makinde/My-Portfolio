@@ -76,3 +76,7 @@
   #home-link{
     color: var(--primary-color);
   }
+  #contact-footer{
+    display: flex;
+    justify-content: center;
+ }
