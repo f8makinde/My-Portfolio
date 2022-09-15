@@ -13,6 +13,7 @@
     font-weight: bold;
     font-size: 96px;
  }
+
  h2{
     font-size: 48px;
  }
@@ -24,6 +25,7 @@
     text-align: center;
     margin: 0;
  }
+
 .btn-container{
    display: flex;
    margin-top: 40px;
@@ -79,4 +81,67 @@
   #contact-footer{
     display: flex;
     justify-content: center;
+ }
+
+ @media(max-width: 280px){
+  h1{
+    font-size: 40px;
+   }
+   .btn-container{
+    height: 120px;
+   }
+   #mail{
+    font-size: 20px;
+   }
+   #about-pg{
+    font-size: 34px;
+   }
+   h3{
+    font-size: 20px;
+   }
+ }
+ @media (max-width: 750px){
+  h1{
+   font-size: 50px;
+  }
+  h2{
+    font-size: 34px;
+  }
+}
+@media (max-width: 200px){
+  .navbar-brand{
+   font-size: 16px;
+  }
+  h1{
+   font-size: 25px;
+   font-weight: 100px;
+    text-align: center;
+   }
+   .intro{
+    font-size: 25px;
+   }
+   h3{
+    font-size: 16px;
+   }
+     .contact-link{
+      margin: 20px 2px;
+      padding: 4px 1px;
+   }
+   .about-link{
+    margin: 20px 2px;
+    padding: 4px 2px;
+}
+ }
+ @media (max-width: 150px){
+  .contact-link{
+    margin: 30px 2px;
+    padding: 1px 1px;
+ }
+ .about-link{
+  margin: 30px 2px;
+  padding: 1px 2px;
+}
+.navbar{
+  width: 130%;
+}
  }
