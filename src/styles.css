@@ -2,6 +2,7 @@
     --branding-color: rgba(108, 99, 255, 1);
     --heading-font-family:'Playfair Display', serif;
     --default-font-family: 'Poppins', sans-serif;
+    --secondary-color:  rgba(249, 247, 254, 1);
   }
  body{
   margin: 0;
@@ -11,14 +12,13 @@
   font-family: var(--heading-font-family);
  }
  .hero{
-  background: rgba(249, 247, 254, 1);
+  background: var(--secondary-color);
   text-align: center;
   padding: 10em 2em;
  }
  .hero p{
   font-size: 2.25rem;
   font-weight: 700;
-  margin: 0;
   color: rgba(39, 33, 66, 1);
 
  }
@@ -29,7 +29,7 @@
   font-size: 1.5rem;
   line-height: 2;
   color: rgba(39, 33, 66, 1);
-
+  font-family: var(--default-font-family);
  }
  .hero a{
   background:var(--branding-color);
@@ -38,4 +38,28 @@
   font-size: 1.125rem;
   padding: 1em 1.875em;
   line-height: 27px;
+ }
+ h2{
+  font-size: 4rem;
+ }
+ .btn-branding{
+  background:var(--branding-color);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  font-size: 1.125rem;
+  padding: 1em 1.875em;
+  line-height: 27px;
+  border: 1px solid var(--branding-color);
+ }
+ p{
+  line-height: 1.875rem;
+ }
+ .project-description{
+  padding: 0 1.875em;
+ }
+ @media(max-width: 960px){
+  .project-description{
+  padding: 0;
+  text-align: center;
+ }
  }
