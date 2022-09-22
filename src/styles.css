@@ -112,8 +112,46 @@
  h2{
   font-size: 4rem;
  }
+ h4{
+  font-size: 3rem;
+ }
  .project-description{
   padding: 0 1.875em;
+ }
+
+ footer .email-link{
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  text-align: center;
+ }
+ footer{
+  margin: 3.75em 0;
+ }
+ footer .contact-box{
+  background: var(--secondary-color);
+  padding: 1.875em 6.25rem;
+  border-radius: .625rem;
+ }
+ footer .contact-box p{
+  margin: 0;
+ }
+
+ footer .email-link:hover{
+  color: var(--branding-color);
+ }
+ footer .social-links a{
+  margin: 0 1.25em;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: .625em 1em;
+  border-radius: 50%;
+  font-size: 1.125rem;
+  transition: all 100ms ease-in-out;
+ }
+ footer .social-links a:hover{
+  background: var(--branding-color);
+  color: white;
  }
  @media(max-width: 960px){
   .hero h1{
@@ -136,13 +174,11 @@
   text-align: center;
   padding: 0;
  }
+ footer .contact-box{
+  flex-direction: column;
+  padding: 1.875em;
  }
- footer .email-link{
-  text-decoration: none;
-  color: black;
-  font-size: 1.5rem;
-  text-align: center;
+ h4{
+  font-size: 1.125rem;
  }
- footer .email-link:hover{
-  color: var(--branding-color);
  }
