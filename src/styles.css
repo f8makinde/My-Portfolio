@@ -39,7 +39,7 @@
  h1, h2, h3, h4, h5, h6{
   font-family: var(--heading-font-family);
  }
-
+ 
  .hero a{
   background:var(--branding-color);
   color: rgba(255, 255, 255, 1);
@@ -61,6 +61,10 @@
  p{
   line-height: 1.875rem;
  }
+ .navbar-collapse{
+ display: flex;
+ justify-content: end;
+  }
  .hero{
   background: var(--secondary-color);
   text-align: center;
