@@ -137,3 +137,12 @@
   padding: 0;
  }
  }
+ footer .email-link{
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  text-align: center;
+ }
+ footer .email-link:hover{
+  color: var(--branding-color);
+ }
