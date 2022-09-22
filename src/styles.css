@@ -28,9 +28,13 @@
   rgba(39, 33, 66, 0.7);
   transition: all 100ms ease-in-out;
  } 
+ .nav-item{
+  padding: 0 10px;
+  line-height: 25px;
 
- li a:hover,  li a:focus, nav li.active a{
-  color: var(--branding-color);
+ }
+ li a:hover,  li a:focus,.active{
+  color: var(--branding-color) !important;
  }
  h1, h2, h3, h4, h5, h6{
   font-family: var(--heading-font-family);
