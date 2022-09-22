@@ -6,7 +6,8 @@
   }
  body{
   margin: 0;
-  font-family: var(--default-font-family)
+  font-family: var(--default-font-family);
+  font-weight: 500;
  }
  nav{
   padding: 1.25em 0;
@@ -71,7 +72,7 @@
   padding: 10em 4em;
  }
  .content-container{
-  padding: 10em 4em;
+  padding: 3.75em 2em;
  }
  .content-container h1{
    font-size: 4rem;
@@ -113,7 +114,7 @@
   font-size: 4rem;
  }
  h4{
-  font-size: 3rem;
+  font-size: 2.25rem;
  }
  .project-description{
   padding: 0 1.875em;
@@ -136,6 +137,7 @@
  footer .contact-box p{
   margin: 0;
  }
+
 
  footer .email-link:hover{
   color: var(--branding-color);
@@ -178,7 +180,13 @@
   flex-direction: column;
   padding: 1.875em;
  }
+ .content h1{
+   font-size: 3rem;
+ }
  h4{
   font-size: 1.125rem;
+ }
+ footer .email-link{
+  font-size: 1rem;
  }
  }
