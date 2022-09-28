@@ -13,6 +13,13 @@
   padding: 1.25em 0;
 
  }
+  .navbar{
+     position: fixed;
+     top: 0;
+     overflow: hidden;
+     opacity: 0.9;
+     width: 100%;
+ }
  nav ul{
   list-style: none;
   display: flex;
